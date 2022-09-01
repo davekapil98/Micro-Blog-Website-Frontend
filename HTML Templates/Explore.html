@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <title>Explore</title>
+</head>
+
+<body>
+    <!--Sidebar section-->
+    <div class="sidebar">
+        <a href="Index.html">
+            <div class="sidebartitle">
+                <span class="material-symbols-outlined ">hub</span>
+                <h2>Micro-Blog</h2>
+            </div>
+        </a>
+        <a href="Index.html">
+            <div class="sidebarOption home">
+                <span class="material-symbols-outlined">home_app_logo</span>
+                <h2>Home</h2>
+            </div>
+        </a>
+        <a href="Explore.html">
+            <div class="sidebarOption explore">
+                <span class="material-symbols-outlined">explore</span>
+                <h2>Explore</h2>
+            </div>
+        </a>
+        <a href="My_Profile.html">
+            <div class="sidebarOption profile">
+                <span class="material-symbols-outlined">account_circle</span>
+                <h2>Profile</h2>
+            </div>
+        </a>
+        <a href="Followers.html">
+            <div class="sidebarOption followers">
+                <span class="material-symbols-outlined">group</span>
+                <h2>Followers</h2>
+            </div>
+        </a>
+        <a href="Account.html">
+            <div class="sidebarOption account">
+                <span class="material-symbols-outlined">manage_accounts</span>
+                <h2>Account</h2>
+            </div>
+        </a>
+        <div class="sidebarOption">
+            <span class="material-symbols-outlined">logout</span>
+            <h2>Logout</h2>
+        </div>
+    </div>
+    <!--End of Sidebar section-->
+    <!---------------------------------------------------------------------------------------------------------------------->
+    <!--Add Post & Feed Area-->
+    <div class="feed">
+        <div class="feed_header">
+            <h2>Explore</h2>
+        </div>
+        <!--Post Box-->
+        <div class="postbox">
+            <form method="post">
+                <div class="postbox_input">
+                    <img src="../Static/Images/default_profile.webp" alt="" />
+                    <!-- <input type="text" placeholder="What's happening?"/> -->
+                    <textarea name="post" cols="20" rows="2" placeholder="What's happening?"></textarea>
+                </div>
+                <div class="extra_content">
+                    <span class="material-symbols-outlined">image</span>
+                    <span><input type="url" placeholder="Image URL"></span>
+                    <span class="material-symbols-outlined">movie</span>
+                    <span><input type="url" placeholder="Video URL"></span>
+                </div>
+                <button class="post_button">Post</button>
+            </form>
+        </div>
+        <!--End of Post box-->
+
+        <!--Post Section-->
+        <div class="post">
+            <!--Profile Pic-->
+            <div class="post_avatar">
+                <img src="../Static/Images/default_profile.webp" alt="">
+            </div>
+            <!--Post Body-->
+            <div class="post_body">
+                <div class="post_header">
+                    <div class="postheader_text">
+                        <h3>Lorem Ipsum
+                            <span class="post_header_username">@lorem</span>
+                        </h3>
+                    </div>
+                </div>
+                <div class="post_content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque veritatis culpa eum ea atque
+                        nostrum temporibus architecto itaque numquam sint dolores, amet, doloribus ducimus.
+                    </p>
+                </div>
+                <img src="https://cdn.amazfeed.com/wp-content/uploads/2022/07/Return-Of-The-Mount-Hua-Sect-Chapter-74-Reddit-Spoiler-Prediction.jpg?strip=all&lossy=1&ssl=1"
+                    alt="">
+            </div>
+        </div>
+        <!--End of Post-->
+
+        <!--Post Section-->
+        <div class="post">
+            <!--Profile Pic-->
+            <div class="post_avatar">
+                <img src="../Static/Images/default_profile.webp" alt="">
+            </div>
+            <!--Post Body-->
+            <div class="post_body">
+                <div class="post_header">
+                    <div class="postheader_text">
+                        <h3>Ipsum dolor.
+                            <span class="post_header_username">@Ipsum</span>
+                        </h3>
+                    </div>
+                </div>
+                <div class="post_content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque veritatis culpa eum ea atque
+                        nostrum temporibus architecto itaque numquam sint dolores, amet, doloribus ducimus.
+                    </p>
+                </div>
+                <img src="https://cdn.amazfeed.com/wp-content/uploads/2022/07/Return-Of-The-Mount-Hua-Sect-Chapter-74-Reddit-Spoiler-Prediction.jpg?strip=all&lossy=1&ssl=1"
+                    alt="">
+            </div>
+        </div>
+        <!--End of Post-->
+
+    </div>
+    <!--End of add post & Feed Area-->
+</body>
+
+</html>

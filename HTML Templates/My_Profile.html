@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <title>My Profile</title>
+</head>
+
+<body>
+    <!--Sidebar section-->
+    <div class="sidebar">
+        <a href="Index.html">
+            <div class="sidebartitle">
+                <span class="material-symbols-outlined ">hub</span>
+                <h2>Micro-Blog</h2>
+            </div>
+        </a>
+        <a href="Index.html">
+            <div class="sidebarOption home">
+                <span class="material-symbols-outlined">home_app_logo</span>
+                <h2>Home</h2>
+            </div>
+        </a>
+        <a href="Explore.html">
+            <div class="sidebarOption explore">
+                <span class="material-symbols-outlined">explore</span>
+                <h2>Explore</h2>
+            </div>
+        </a>
+        <a href="My_Profile.html">
+            <div class="sidebarOption profile">
+                <span class="material-symbols-outlined">account_circle</span>
+                <h2>Profile</h2>
+            </div>
+        </a>
+        <a href="Followers.html">
+            <div class="sidebarOption followers">
+                <span class="material-symbols-outlined">group</span>
+                <h2>Followers</h2>
+            </div>
+        </a>
+        <a href="Account.html">
+            <div class="sidebarOption account">
+                <span class="material-symbols-outlined">manage_accounts</span>
+                <h2>Account</h2>
+            </div>
+        </a>
+        <div class="sidebarOption">
+            <span class="material-symbols-outlined">logout</span>
+            <h2>Logout</h2>
+        </div>
+    </div>
+    <!--End of Sidebar section-->
+    <!---------------------------------------------------------------------------------------------------------------------->
+
+    <!--Profile Section-->
+    <div class="profile_page">
+        <div class="profile_header">
+            <h2>My Profile Page</h2>
+        </div>
+        <!--Profile Pic & Name Section-->
+        <div class="profile_pic_section">
+            <div class="profile_pic">
+                <img src="../Static/Images/default_profile.webp" alt="">
+            </div>
+            <button class="edit_button" id="edit-btn"><span class="material-symbols-outlined">edit</span></button>
+            <div id="Edit_image" class="image_url_hidden">
+                <form action="#" method="post">
+                    <span><input type="file" accept="image/*"></span>
+                    <button type="submit" class="save-img">Save</button>
+                </form>
+            </div>
+            <div class="username">
+                <h2>Lorem Ipsum</h2>
+            </div>
+
+        </div>
+        <!--End of Profile Pic & Name Section-->
+
+        <!--Profile Data-->
+        <div class="profile_content">
+            <form action="#" method="post">
+                <div class="loginid">
+                    <h3>Username</h3>
+                    <input type="text" value="@lorem" disabled>
+                </div>
+                <br>
+                <div class="nickname">
+                    <button class="edit" id="name-btn" type="button"><span
+                            class="material-symbols-outlined">edit</span></button>
+                    <h3>Name</h3>
+                    <div class="datawithbtn">
+                        <input type="text" id="name" value="Lorem Ipsum" disabled>
+                        <button type="submit" class="save-btn" id="save-btn">Save Changes</button>
+                        <button type="reset" class="cancel-btn" id="cancel-btn">Cancel</button>
+                    </div>
+                </div>
+                <br>
+                <div class="emailid">
+                    <button class="edit" id="email-btn" type="button"><span
+                            class="material-symbols-outlined">edit</span></button>
+                    <h3>Email ID</h3>
+                    <div class="datawithbtn">
+                        <input type="email" id="email" value="abc@xyz.com" disabled>
+                        <button type="submit" class="save-btn" id="save-btn1">Save Changes</button>
+                        <button type="reset" class="cancel-btn" id="cancel-btn1">Cancel</button>
+                    </div>
+                </div>
+                <br>
+                <div class="birthdate">
+                    <button class="edit" id="birthdate-btn" type="button"><span
+                            class="material-symbols-outlined">edit</span></button>
+                    <h3>Birthdate</h3>
+                    <div class="datawithbtn">
+                        <input type="date" id="birthdate" value="2005-01-01" disabled>
+                        <button type="submit" class="save-btn" id="save-btn2">Save Changes</button>
+                        <button type="reset" class="cancel-btn" id="cancel-btn2">Cancel</button>
+                    </div>
+                </div>
+                <br>
+                <div class="description">
+                    <button class="edit" id="description-btn" type="button"><span
+                            class="material-symbols-outlined">edit</span></button>
+                    <h3>Description</h3>
+                    <div class="datawithbtn">
+                        <input type="text" id="description"
+                            value="Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi laudantium mollitia velit fugiat? Distinctio minus, magnam aut ipsam cum saepe. Esse possimus porro reprehenderit?"
+                            disabled>
+                        <button type="submit" class="save-btn" id="save-btn3">Save Changes</button>
+                        <button type="reset" class="cancel-btn" id="cancel-btn3">Cancel</button>
+                    </div>
+                </div>
+                <br>
+                <br>
+            </form>
+        </div>
+        <!--End of Profile-->
+    </div>
+    <script src="../Static/main.js"></script>
+</body>
+
+</html>
